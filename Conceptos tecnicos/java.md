@@ -19,7 +19,7 @@ Paradigma de programación basado en el concepto de "objetos" como unidad fundam
 #### 3. Polimorfismo
 Este concepto nos permite tratar objetos de subclases como si fueran de la superclase, aumentando la flexibilidad del código.
 
-Ejemplo, aunque myAccount sea de tipo Account, podría referirse a un objeto de tipo SavingsAccount, permitiendo el uso polimórfico de métodos como "deposit" y "withdraw".
+Ejemplo, aunque myAccount sea de tipo Account, podría referirse a un objeto de tipo SavingsAccount, permitiendo el uso polimórfico de métodos como "deposit" y "withdraw", métodos de SavingsAccount.
 
 ```java
 Account myAccount = new SavingsAccount("12345", 1000.0, 0.05);
