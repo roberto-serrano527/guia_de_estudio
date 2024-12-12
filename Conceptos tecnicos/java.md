@@ -151,6 +151,7 @@ if (obj instanceof String str) {  // Pattern Matching
 ## 📌 Conceptos Adicionales
 
 ### Palabra Clave `static`
+- Permite que un método/atributo pertenezca a la clase, no a las instancias.
 - Permite acceso a métodos y variables de clase
 - No requiere instanciar un objeto
 
