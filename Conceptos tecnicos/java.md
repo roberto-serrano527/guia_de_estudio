@@ -17,20 +17,16 @@ Paradigma de programación basado en el concepto de "objetos" como unidad fundam
 - Protege la integridad de los datos
 
 #### 3. Polimorfismo
-Construcción de métodos con el mismo nombre pero comportamiento diferente.
+Este concepto nos permite tratar objetos de subclases como si fueran de la superclase, aumentando la flexibilidad del código.
 
-**Tipos de Polimorfismo:**
-1. **Sobrecarga**
-   - Métodos con mismo nombre en clases independientes
-   - Diferenciados por número o tipo de parámetros
+Ejemplo, aunque myAccount sea de tipo Account, podría referirse a un objeto de tipo SavingsAccount, permitiendo el uso polimórfico de métodos como "deposit" y "withdraw".
 
-2. **Polimorfismo Paramétrico**
-   - Métodos con mismo nombre 
-   - Se selecciona según tipo de datos enviados
+```java
+Account myAccount = new SavingsAccount("12345", 1000.0, 0.05);
+myAccount.deposit(200.0);
+myAccount.withdraw(50.0);
+```
 
-3. **Polimorfismo de Inclusión**
-   - Permite llamar métodos sin conocer el tipo específico
-   - Utiliza una interfaz común
 
 #### 4. Herencia
 - Capacidad de transferir características (atributos y métodos) de una clase a otra
